@@ -9,6 +9,7 @@ Major security feature of Vmail are mentioned below:
 2. Encrypting sensitive information like password
 3. Running application on secure channel via SSL - HTTPS
 4. Protection from top 10 OWASP security threats like: 
+
         a. SQL Injection 
         b. Cross-Site Scripting (XSS)
         c. Cross-Site Request Forgery (CSRF) 
