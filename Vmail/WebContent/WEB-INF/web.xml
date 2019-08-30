@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Vmail</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.vmail.LogIn</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>  
+    
+  <servlet>
+    <servlet-name>Registration</servlet-name>
+    <servlet-class>com.vmail.Registration</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>Registration</servlet-name>
+    <url-pattern>/Registration</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+    <servlet-name>Compose</servlet-name>
+    <servlet-class>com.vmail.Compose</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>Compose</servlet-name>
+    <url-pattern>/Compose</url-pattern>
+  </servlet-mapping> 
+  
+   <servlet>
+    <servlet-name>Backup</servlet-name>
+    <servlet-class>com.vmail.Backup</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>Backup</servlet-name>
+    <url-pattern>/Backup</url-pattern>
+  </servlet-mapping> 
+  
+
+</web-app>

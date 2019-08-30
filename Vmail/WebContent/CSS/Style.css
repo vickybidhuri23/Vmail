@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../Image/bg1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.top {
+    position: absolute;
+    font-size: 60px;
+    color: #03a9f4;
+    top:5%;
+    left:5%;
+    text-align: center;   
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.1);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    
+}
+.box .inputBox {
+    position: relative;
+}
+.box .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    
+}
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .inputBox input:focus ~label, 
+.box .inputBox input:valid ~label {
+    top: -17px;
+    left: 0;
+    font-size: 12px;
+    color: #03a9f4;
+}
+.box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+}
+/* --------------------------------- */
+.bottom {
+	position: absolute;
+    top: 60.7%;
+    left: 50%;
+	width: 50px;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+} 
+
+.bottom a{
+color: white;
+text-decoration: none;
+}
+
+.bottom1 {
+	position: absolute;
+    top: 74.5%;
+    left: 50%;
+	width: 50px;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+} 
+
+.bottom1 a{
+color: white;
+text-decoration: none;
+}
