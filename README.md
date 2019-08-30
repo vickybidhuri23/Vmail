@@ -21,4 +21,4 @@ Major security feature of Vmail are mentioned below:
        
 Environment: JAVA/J2EE, JSP, Servlet, HTML5, CSS3, JavaScript, Tomcat v9, Eclipse IDE, MySQL.
 
-Note - For Screenshots of the web application, go to Vmail > Vmail_Extras
+Note - For screenshots of the web application, go to Vmail > Vmail_Extras
