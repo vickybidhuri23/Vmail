@@ -9,13 +9,13 @@ Major security feature of Vmail are mentioned below:
 2. Encrypting sensitive information like password
 3. Running application on secure channel via SSL - HTTPS
 4. Protection from top 10 OWASP security threats like: 
-        >> SQL Injection 
-        >> Cross-Site Scripting (XSS)
-        >> Cross-Site Request Forgery (CSRF) 
-        >> Clickjacking 
-        >> Session Theft (Session Management)
-        >> Broken Authentication   
-        >> Insufficient Logging & Monitoring
-        >> Acess Control and Aauthorisation (RBAC model)
+        a. SQL Injection 
+        b. Cross-Site Scripting (XSS)
+        c. Cross-Site Request Forgery (CSRF) 
+        d. Clickjacking 
+        e. Session Theft (Session Management)
+        f. Broken Authentication   
+        g. Insufficient Logging & Monitoring
+        h. Acess Control and Aauthorisation (RBAC model)
        
 Environment: JAVA/J2EE, JSP, Servlet, HTML5, CSS3, JavaScript, Tomcat v9, Eclipse IDE, MySQL.
